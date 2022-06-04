@@ -1,23 +1,26 @@
 @import url(./fonts.css);
 
 
-:root{
+:root {
     --font-primary: 'Roboto';
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-primary);
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.container{
+
+.container {
     max-width: 1376px;
     width: 100%;
     margin: 0 auto;
@@ -42,8 +45,84 @@ ul{
 
 /* guide start */
 
+.guide__word {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.guide__h2 {
+    width: 465px;
+    height: 108px;
+    text-align: center;
+    color: #692340;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 54px;
+}
 
+.guide__p {
+    color: #692340;
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 37px 390px;
+}
+
+.guide__image {
+    width: 340px;
+    height: 380px;
+    left: 67.2%;
+}
+
+.guide__box {
+    width: 955px;
+    margin: auto;
+}
+
+.guide__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 134px 0;
+}
+
+.guide__text {
+    width: 427px;
+    margin: 0 22px;
+    padding: 0 55px;
+}
+
+.guide__text h3 {
+    color: #692340;
+    
+}
+
+.guide__text p:first-of-type {
+    color: #692340;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 13px;
+    padding: 55px 0;
+}
+
+.guide__text p {
+    color: #692340;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.guide__text p: {}
 
 /* guide end */
 
@@ -96,6 +175,3 @@ ul{
 
 
 /* footer end */
-
-
-
