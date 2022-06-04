@@ -100,7 +100,7 @@ ul {
 
 .guide__text h3 {
     color: #692340;
-    
+
 }
 
 .guide__text p:first-of-type {
@@ -110,8 +110,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    margin: 0 13px;
-    padding: 55px 0;
+    margin: 22px 0;
 }
 
 .guide__text p {
@@ -122,7 +121,15 @@ ul {
     font-size: 16px;
 }
 
-.guide__text p: {}
+.guide__text p:last-of-type{
+    color: #692340;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 16px 0;
+}
 
 /* guide end */
 
